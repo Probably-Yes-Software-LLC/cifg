@@ -1,0 +1,12 @@
+[package]
+name    = "cifg"
+version = "1.0.0"
+
+authors     = ["Conner Blair <conner@probablyyes.software>"]
+description = "A macro for defining #[cfg] if/else blocks; alternate to cfg-if."
+edition     = "2021"
+keywords    = ["cfg", "macro"]
+license     = "MIT OR Apache-2.0"
+repository  = "https://github.com/Probably-Yes-Software-LLC/cifg"
+
+[dependencies]
