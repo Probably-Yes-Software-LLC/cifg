@@ -3,6 +3,7 @@ name    = "cifg"
 version = "1.0.0"
 
 authors     = ["Conner Blair <conner@probablyyes.software>"]
+categories  = ["no-std", "rust-patterns"]
 description = "A macro for defining #[cfg] if/else blocks; alternate to cfg-if."
 edition     = "2021"
 keywords    = ["cfg", "macro"]
