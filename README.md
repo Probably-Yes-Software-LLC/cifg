@@ -1,5 +1,12 @@
 # cifg
 
+[![cifg on crates.io][crates-shield]][crates-url]
+[![cifg on docs.rs][docs-shield]][docs-url]
+![cifg licenses][license-shield]
+[![Apache-2.0 license][apache-shield]](LICENSE-APACHE)
+[![MIT license][mit-shield]](LICENSE-MIT)
+![MSRV][msrv-shield]
+
 A macro for defining #[cfg] if/else blocks; alternate to cfg-if.
 
 # License
@@ -18,3 +25,12 @@ at your option.
 Any contribution intentionally submitted for inclusion in `cifg` by you,
 as defined in the Apache-2.0 license, shall be dual licensed as above,
 without any additional terms or conditions.
+
+[crates-shield]: https://img.shields.io/crates/v/cifg
+[crates-url]: https://crates.io/crates/cifg
+[docs-shield]: https://img.shields.io/docsrs/cifg
+[docs-url]: https://docs.rs/cifg
+[license-shield]: https://img.shields.io/crates/l/cifg
+[apache-shield]: https://img.shields.io/badge/Apache--2.0-blue
+[mit-shield]: https://img.shields.io/badge/MIT-blue
+[msrv-shield]: https://img.shields.io/crates/msrv/cifg
