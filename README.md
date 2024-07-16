@@ -30,7 +30,7 @@ without any additional terms or conditions.
 [crates-url]: https://crates.io/crates/cifg
 [docs-shield]: https://img.shields.io/docsrs/cifg
 [docs-url]: https://docs.rs/cifg
-[license-shield]: https://img.shields.io/crates/l/cifg
-[apache-shield]: https://img.shields.io/badge/Apache--2.0-blue
-[mit-shield]: https://img.shields.io/badge/MIT-blue
+[license-shield]: https://img.shields.io/crates/l/cifg?color=rebeccapurple
+[apache-shield]: https://img.shields.io/badge/Apache--2.0-rebeccapurple
+[mit-shield]: https://img.shields.io/badge/MIT-rebeccapurple
 [msrv-shield]: https://img.shields.io/crates/msrv/cifg
