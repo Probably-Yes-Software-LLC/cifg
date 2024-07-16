@@ -10,4 +10,12 @@ keywords    = ["cfg", "macro"]
 license     = "MIT OR Apache-2.0"
 repository  = "https://github.com/Probably-Yes-Software-LLC/cifg"
 
-[dependencies]
+[package.metadata.docs.rs]
+features = ["docs"]
+
+[features]
+docs = ["dep:macro_railroad_annotation"]
+
+[dependencies.macro_railroad_annotation]
+optional = true
+version  = "1.0"

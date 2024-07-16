@@ -60,6 +60,8 @@
 /// * zero or one `else` statement
 /// * conditions of `cfg(/* config option */)`
 ///
+/// # Example
+///
 /// ```
 /// cifg::cifg! {
 ///     if cfg(debug_assertions) {
@@ -73,6 +75,14 @@
 ///     }
 /// }
 /// ```
+///
+/// # Expansion Diagram
+///
+/// ![cifg railroad diagram][rr_diagram]
+#[cfg_attr(
+    feature = "docs",
+    macro_railroad_annotation::generate_railroad("rr_diagram")
+)]
 #[macro_export]
 macro_rules! cifg {
     // Main entry; create a cfg'd block for the initial condition.
