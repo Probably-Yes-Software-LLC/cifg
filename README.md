@@ -2,7 +2,7 @@
 
 [![cifg on crates.io][crates-shield]][crates-url]
 [![cifg on docs.rs][docs-shield]][docs-url]
-[![cifg licenses][license-shield]](#)
+[![cifg licenses][license-shield]](#License)
 [![Apache-2.0 license][apache-shield]](LICENSE-APACHE)
 [![MIT license][mit-shield]](LICENSE-MIT)
 ![MSRV][msrv-shield]
