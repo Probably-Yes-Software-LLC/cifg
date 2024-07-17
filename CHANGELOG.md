@@ -14,9 +14,9 @@ No major unreleased changes.
 [![cifg on crates.io][crates-shield-1.0.3]][crates-url-1.0.3]
 [![cifg on docs.rs][docs-shield-1.0.3]][docs-url-1.0.3]
 [![cifg licenses][license-shield-1.0.3]][license-url-1.0.3]
-[![Apache-2.0 license][apache-shield-1.0.3]][appache-url-1.0.3]
+[![Apache-2.0 license][apache-shield-1.0.3]][apache-url-1.0.3]
 [![MIT license][mit-shield-1.0.3]][mit-url-1.0.3]
-![MSRV][msrv-shield]
+[![MSRV][msrv-shield-1.0.3]](#)
 
 [v1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/tree/v1.0.3
 [crates-shield-1.0.3]: https://img.shields.io/badge/crates.io-1.0.3-blue
@@ -25,10 +25,11 @@ No major unreleased changes.
 [docs-url-1.0.3]: https://docs.rs/cifg/1.0.3
 [license-shield-1.0.3]: https://img.shields.io/crates/l/cifg/1.0.3?color=rebeccapurple
 [license-url-1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/blob/v1.0.3/README.md#license
-[appache-shield-1.0.3]: https://img.shields.io/badge/Apache--2.0-rebeccapurple
-[appache-url-1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/blob/v1.0.3/LICENSE-APACHE
+[apache-shield-1.0.3]: https://img.shields.io/badge/Apache--2.0-rebeccapurple
+[apache-url-1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/blob/v1.0.3/LICENSE-APACHE
 [mit-shield-1.0.3]: https://img.shields.io/badge/MIT-rebeccapurple
 [mit-url-1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/blob/v1.0.3/LICENSE-MIT
+[msrv-shield-1.0.3]: https://img.shields.io/crates/msrv/cifg/1.0.3
 
 ### Added
 * Initial commit of `cifg` macro.
