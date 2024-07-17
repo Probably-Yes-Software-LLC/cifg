@@ -37,4 +37,4 @@ docs = ["dep:cifg-diag-attr"]
 [dependencies.cifg-diag-attr]
 optional = true
 path     = "diag-attr"
-version  = "1.0.0"
+version  = "1.0.1"

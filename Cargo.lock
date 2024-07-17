@@ -17,7 +17,7 @@ dependencies = [
 
 [[package]]
 name = "cifg-diag-attr"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "base64",
  "macro_railroad",
