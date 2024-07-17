@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] (2024-07-16)
 
 ### Added
+* Updated documentation.
+
+## [1.0.1] (2024-07-16)
+
+### Added
 * Added attribute call during docs.rs builds to generate railroad diagram.
 * The attribute proc macro is published in the crate [cifg-diag-attr][attr-crates-io].
 

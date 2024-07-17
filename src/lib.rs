@@ -77,14 +77,19 @@
 /// ```
 ///
 /// # Expansion Diagram
-///
-/// ![cifg railroad diagram][diagram]
-///
 #[cfg_attr(
     not(feature = "docs"),
-    doc = "[diagram]: https://docs.rs/cifg/latest/cifg/macro.cifg.html#expansion-diagram"
+    doc = "[View diagram on docs.rs][diag-docs-rs] \n \n"
 )]
-#[cfg_attr(feature = "docs", cifg_diag_attr::gen_rr_diag("diagram"))]
+#[cfg_attr(
+    not(feature = "docs"),
+    doc = "[diag-docs-rs]: https://docs.rs/cifg/latest/cifg/macro.cifg.html#expansion-diagram"
+)]
+#[cfg_attr(
+    feature = "docs",
+    doc = "![cifg railroad diagram][diagram] \n \n",
+    cifg_diag_attr::gen_rr_diag("diagram")
+)]
 #[macro_export]
 macro_rules! cifg {
     // Main entry; create a cfg'd block for the initial condition.
