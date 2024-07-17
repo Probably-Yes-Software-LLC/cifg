@@ -4,7 +4,7 @@ version = "1.0.0"
 
 description = """
 An attribute for adding a railroad diagram to the cifg macro_rules doc comments.
-Intended for use by the [cifg](https://docs.rs/cifg) crate only.
+Intended for use by the cifg crate only.
 """
 keywords = ["cifg"]
 
