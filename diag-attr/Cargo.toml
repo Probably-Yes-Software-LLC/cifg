@@ -1,0 +1,27 @@
+[package]
+name    = "cifg-diag-attr"
+version = "1.0.0"
+
+description = """
+An attribute for adding a railroad diagram to the cifg macro_rules doc comments.
+Intended for use by the [cifg](https://docs.rs/cifg) crate only.
+"""
+keywords = ["cifg"]
+
+authors.workspace    = true
+edition.workspace    = true
+license.workspace    = true
+repository.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+base64.workspace         = true
+macro_railroad.workspace = true
+proc-macro2.workspace    = true
+quote.workspace          = true
+
+[dependencies.syn]
+features  = ["full"]
+workspace = true

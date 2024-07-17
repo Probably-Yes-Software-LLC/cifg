@@ -1,13 +1,40 @@
 [package]
 name    = "cifg"
-version = "1.0.0"
+version = "1.0.1"
 
-authors     = ["Conner Blair <conner@probablyyes.software>"]
 categories  = ["no-std", "rust-patterns"]
 description = "A macro for defining #[cfg] if/else blocks; alternate to cfg-if."
-edition     = "2021"
 keywords    = ["cfg", "macro"]
-license     = "MIT OR Apache-2.0"
-repository  = "https://github.com/Probably-Yes-Software-LLC/cifg"
 
-[dependencies]
+authors.workspace    = true
+edition.workspace    = true
+license.workspace    = true
+repository.workspace = true
+
+[package.metadata.docs.rs]
+features = ["docs"]
+
+[workspace]
+members  = ["diag-attr"]
+resolver = "2"
+
+[workspace.package]
+authors    = ["Conner Blair <conner@probablyyes.software>"]
+edition    = "2021"
+license    = "MIT OR Apache-2.0"
+repository = "https://github.com/Probably-Yes-Software-LLC/cifg"
+
+[workspace.dependencies]
+base64         = "0.22.1"
+macro_railroad = "0.1.6"
+proc-macro2    = "1.0.85"
+quote          = "1.0.36"
+syn            = "2.0.66"
+
+[features]
+docs = ["dep:cifg-diag-attr"]
+
+[dependencies.cifg-diag-attr]
+optional = true
+path     = "diag-attr"
+version  = "1.0.0"
