@@ -79,10 +79,7 @@
 /// # Expansion Diagram
 #[cfg_attr(
     not(feature = "docs"),
-    doc = "[View diagram on docs.rs][diag-docs-rs] \n \n"
-)]
-#[cfg_attr(
-    not(feature = "docs"),
+    doc = "[View diagram on docs.rs][diag-docs-rs] \n \n",
     doc = "[diag-docs-rs]: https://docs.rs/cifg/latest/cifg/macro.cifg.html#expansion-diagram"
 )]
 #[cfg_attr(
