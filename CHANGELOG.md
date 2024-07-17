@@ -7,26 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.3] (2024-07-16)
+No major unreleased changes.
 
-### Added
-* Updated documentation.
+## [1.0.0 - 1.0.3][v1.0.3] (2024-07-15, 07-16)
 
-## [1.0.2] (2024-07-16)
-
-### Added
-* Updated documentation.
-
-## [1.0.1] (2024-07-16)
-
-### Added
-* Added attribute call during docs.rs builds to generate railroad diagram.
-* The attribute proc macro is published in the crate [cifg-diag-attr][attr-crates-io].
-
-## [1.0.0] (2024-07-15)
+[v1.0.3]: https://github.com/Probably-Yes-Software-LLC/cifg/tree/v1.0.3
 
 ### Added
 * Initial commit of `cifg` macro.
 * Licenses and readme.
+* Added attribute call during docs.rs builds to generate railroad diagram.
+* The attribute proc macro is published in the crate [cifg-diag-attr][attr-crates-io].
+* Updated documentation formatting.
 
 [attr-crates-io]: https://crates.io/crates/cifg-diag-attr
