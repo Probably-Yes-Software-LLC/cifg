@@ -101,6 +101,8 @@ macro_rules! cifg {
         $crate::cifg! {
             @IDENTITY [$($tokens)*]
         }
+
+        #[cfg(not($positive))]
         $crate::cifg! {
             @AGGREGATE_NEGATED_METAS
             [$positive]
@@ -141,8 +143,10 @@ macro_rules! cifg {
     ) => {
         #[cfg(all($positive, $not_any))]
         $crate::cifg! {
-            @IDENTITY $($tokens)*
+            @IDENTITY [$($tokens)*]
         }
+
+        #[cfg(not(all($positive, $not_any)))]
         $crate::cifg! {
             @AGGREGATE_NEGATED_METAS
             [$positive, $($negative),*]
@@ -161,7 +165,7 @@ macro_rules! cifg {
     ) => {
         #[cfg($not_any)]
         $crate::cifg! {
-            @IDENTITY $($tokens)*
+            @IDENTITY [$($tokens)*]
         }
     };
 
@@ -172,4 +176,24 @@ macro_rules! cifg {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    fn one() {
+        1
+    }
+
+    fn two() {
+        2
+    }
+
+    #[test]
+    fn test_expr() {
+        let x = cifg! {
+            if cfg(debug_assertions) {
+                one()
+            }
+            else {
+                two()
+            }
+        };
+    }
 }
